@@ -1,0 +1,28 @@
+ISA projekt
+Varianta Discord bot
+
+Autor: Adam Múdry (xmudry01)
+
+Úlohou tohto projektu bolo naprogramovať program isabot, ktorý bude komunikovať so servermi
+služby Discord - zachytávať správy od používateľov (ak sa nachádzajú v kanáli s názvom #isa-bot)
+a odpovedať na ne vo formáte: echo: <username> - <message>.
+
+Prípadné chybové správy sú vypísané na štandardný chybový výstup (stderr).
+
+Spustenie programu:
+./isabot [-h|--help] [-v|--verbose] -t <bot_access_token>
+
+Príklady volania:
+./isabot -t TOKEN -v
+./isabot -t TOKEN
+
+Zoznam odovzdaných súborov:
+src/main.cpp
+src/main.hpp
+src/ssl.cpp
+src/ssl.hpp
+src/etc.cpp
+src/etc.hpp
+Makefile
+manual.pdf
+README
